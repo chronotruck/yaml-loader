@@ -1,0 +1,44 @@
+{
+  "name": "@chronotruck/yaml-loader",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "YAML to JS loader for Webpack",
+  "keywords": [
+    "yaml",
+    "webpack",
+    "loader",
+    "json"
+  ],
+  "homepage": "https://github.com/chronotruck/yaml-loader",
+  "bugs": {
+    "url": "https://github.com/chronotruck/yaml-loader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chronotruck/yaml-loader.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore --write .",
+    "test": "jest --coverage"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.1"
+  },
+  "engines": {
+    "node": ">= 10.14.2"
+  }
+}

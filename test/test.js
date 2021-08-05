@@ -17,6 +17,6 @@ describe('basic', () => {
     expect(parts[3]).toMatch('"new-key": true,')
     expect(parts[4]).toMatch('"with-number": 12')
     expect(parts[5]).toMatch('};')
-    expect(parts[6]).toMatch('module.exports = data;')
+    expect(parts[6]).toMatch('module.exports = jsonData;')
   })
 })

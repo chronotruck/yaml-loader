@@ -31,7 +31,7 @@
     "trailingComma": "none"
   },
   "dependencies": {
-    "yaml": "^1.10.2"
+    "yaml": "^2.0.0-7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",

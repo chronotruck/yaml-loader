@@ -1,6 +1,6 @@
 {
   "name": "@chronotruck/yaml-loader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "YAML to JS loader for Webpack",
   "keywords": [
@@ -31,7 +31,7 @@
     "trailingComma": "none"
   },
   "dependencies": {
-    "yaml": "^1.10.2"
+    "yaml": "^2.0.0-7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
